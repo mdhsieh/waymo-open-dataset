@@ -1,0 +1,13 @@
+PIPELINE_CONFIG_PATH=/data/cmpe297-02-fa2019/michaelhsieh/faster_rcnn_resnet101_coco_11_06_2017/pipeline.config 
+MODEL_DIR=/data/cmpe297-02-fa2019/michaelhsieh/modeloutput4/
+# NUM_TRAIN_STEPS=10000
+NUM_TRAIN_STEPS=3000
+# NUM_TRAIN_STEPS=500
+SAMPLE_1_OF_N_EVAL_EXAMPLES=1
+python /home/010151297/models/research/object_detection/model_main.py \
+    --pipeline_config_path=${PIPELINE_CONFIG_PATH} \
+    --model_dir=${MODEL_DIR} \
+    --num_train_steps=${NUM_TRAIN_STEPS} \
+    --sample_1_of_n_eval_examples=$SAMPLE_1_OF_N_EVAL_EXAMPLES \
+    --alsologtostderr
+
