@@ -11,4 +11,5 @@ Link: https://github.com/tensorflow/models/tree/master/research/object_detection
 See this link: https://pythonprogramming.net/creating-tfrecord-files-tensorflow-object-detection-api-tutorial/
 6. Create a pipeline.config to do training. The label map should be set to mscoco_label_map_pbtxt, and the train and test config paths 
 should be set to the TFRecords.
+The pipeline config file is described here: https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/configuring_jobs.md
 7. Run training from the repository with the run-training script.
