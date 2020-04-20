@@ -1,7 +1,7 @@
 # waymo-open-dataset
 Training a model from the Tensorflow Object Detection API with images from the Waymo Open Dataset.
 
-Note: The model will complete training, but currently the model can't be exported.
+**Note:** The model will complete training, but currently the model can't be exported.
 
 Steps are described in the Waymo Image Recognition and Training PDF.
 1. Download the first zipped folder containing TFRecord files from the Waymo Open Dataset. It will be very large (several GB). Later we will extract the images and bounding box coordinates, creating our own TFRecords, because the provided TFRecords aren't compatible with the Object Detection API. 
