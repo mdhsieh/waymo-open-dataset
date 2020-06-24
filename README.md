@@ -16,3 +16,6 @@ See this link: https://pythonprogramming.net/creating-tfrecord-files-tensorflow-
 should be set to the TFRecords.
 The pipeline config file is described here: https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/configuring_jobs.md
 8. Run training from the repository with the run-training script.
+
+## Screenshots
+![model finished training](training_finished.PNG)
