@@ -18,4 +18,4 @@ The pipeline config file is described here: https://github.com/tensorflow/models
 8. Run training from the repository with the run-training script.
 
 ## Screenshots
-![model finished training](training_finished.PNG)
+![model finished training](training_finished.png)
